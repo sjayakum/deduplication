@@ -44,13 +44,12 @@ Note that: this TF-IDF is just a we still need some metric to compute the simila
 
 ## Entity Resolution using Cosine Similarity
 
-#### $$ similarity = \cos \theta = \frac{a \cdot b}{\|a\| \|b\|} = \frac{\sum a_i b_i}{\sqrt{\sum a_i^2} \sqrt{\sum b_i^2}} $$
 
-
+similarity = cosO = {a.b}{|a| * |b|}
 
 ## Results/ Accuracy
 
-#### $$ Fmeasure = 2 \frac{precision * recall}{precision + recall} $$
+Fmeasure = 2*{precision * recall}/{precision + recall}
 
 * #### Precision = true-positives / (true-positives + false-positives)
 * #### Recall = true-positives / (true-positives + false-negatives)
